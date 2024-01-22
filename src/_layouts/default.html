@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="I am Full Stack Developer turning .NET & Angular code into business value for 7+ Years">
+    <meta name="author" content="Łukasz Miedziński">
+    <title>Łukasz Miedziński - Full-Stack Developer</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="apple-touch-icon" href="/assets/img/lm_logo_black-180x180.png">
+    <link rel="icon" href="/assets/img/lm_logo_black-32x32.png" sizes="32x32">
+    <link rel="icon" href="/assets/img/lm_logo_black-192x192.png" sizes="192x192">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WVH11WT2G5"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-WVH11WT2G5');
+</script>
+
+<body>
+    {% include nav.html %}
+    <main>
+        {{ content }}
+    </main>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
